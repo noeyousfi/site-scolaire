@@ -1,0 +1,45 @@
+*{
+	margin:0;						/* Pour enlever les bords qui te font tant galérer c'est ça en fait noé lol */
+	padding: 0;
+}
+
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 17px;
+	box-sizing: rgb(226, 226, 226);
+	color: white;
+	letter-spacing: 3px;
+}
+
+#showcase{
+	background-image: url(img/vendée.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:0 20px;  /* Sert à avoir une page responsive pour les différentes résolutions */
+
+}
+
+#showcase .button{
+	font-size: 18px;
+	text-decoration: none;
+	border: 2px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: #F1F4F6;
+
+
+}
+
+#showcase .button:hover{
+	filter: contrast(80%);
+	color: #D3D3D3	;
+
+}
+

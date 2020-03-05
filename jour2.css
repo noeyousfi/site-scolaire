@@ -1,0 +1,126 @@
+html, body {
+	display: table;
+	height: 100%;
+	width :100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+*{
+	margin:0px;
+	padding: 0px;                 /*Cette partie sert a retirer les effets de style de base */
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+nav{
+	display:	flex;
+	justify-content:space-around;      /*Sert à justifier le contenu */
+	align-items: center;							/*Cette partie concerne la barre de navigation en elle même */
+	min-height: 8vh;
+	font-family: 'Open Sans', sans-serif;  /* Police de caractère */
+	background-color: #76352F;
+}
+
+.logo a{
+	color: rgb(226, 226, 226);
+	letter-spacing: 3px;                /*Va influencer le "logo" Carnet de voyage*/
+	font-size: 20px;
+}
+
+.nav-links{
+	display: flex;
+	justify-content: space-around;  
+	width: 30%;
+}
+.nav-links li{
+	list-style: none;
+}
+
+.nav-links a{
+	color: rgb(226, 226, 226);
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-weight: bold;
+	font-size: 17px;
+}	
+
+	.nav-links{
+		width: 60%;
+	}
+
+li a:hover {									/* hover correspond à une animation lorsque le curseur survole l'entité en question */
+	background-color: #A54A42;		
+	background-size: 100%;
+}
+
+
+
+body {
+	background-image: url(img/Nantes2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}	
+
+.ile{
+	width: 800px;
+	margin: 0 auto;
+	background-color:#F0F0F0;
+	align-content: center;
+	margin-top: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	max-width: 1000px;
+	border-radius: 10px;
+	font-size: 17px;
+	text-decoration: underline;
+}
+
+.ile img{
+	border-radius:10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.ile img:hover{
+	filter: contrast(85%);
+}
+
+.fort{
+	width: 800px;
+	margin: 0 auto;
+	background-color:#F0F0F0;
+	align-content: center;
+	margin-top: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	max-width: 1000px;
+	border-radius: 10px;
+	font-size: 17px;
+	text-decoration: underline;
+}
+
+.fort img{
+	border-radius:10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.fort img:hover{
+	filter: contrast(85%);
+}
+
+.ile-video{
+	width: 800px;
+	margin: 0 auto;
+	background-color:#F0F0F0;
+	align-content: center;
+	margin-top: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	max-width: 1000px;
+	border-radius: 10px;
+	font-size: 17px;
+	text-decoration: underline;
+}
